@@ -1,0 +1,13 @@
+digraph {
+	graph [bgcolor="#C0FFEE" fillcolor="#FFC0EE" fontcolor="#990000" fontsize=24 label="taiwan brand" rankdir=TB]
+	node [bgcolor="#EEC0FF" color="#FFC0EE" fillcolor="#EEC0FF" fontcolor="#000000" fontname=Courier fontsize=24 shape=box style=filled]
+	edge [arrowhead=open color="#AAAAAA" fonrname=Consolas fontcolor="#66FF66" fontsize=24 style=dotted]
+	A [label=HTC]
+	B [label=ACER]
+	C [label=ASUS]
+	D [label=GIGA]
+	A -> B [label="VR Related"]
+	A -> C [label="mobile marketshare"]
+	B -> D [label=ODM]
+	C -> D [label=competitor]
+}

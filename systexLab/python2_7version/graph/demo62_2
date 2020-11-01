@@ -1,0 +1,10 @@
+digraph {
+	A [label=HTC]
+	B [label=ACER]
+	C [label=ASUS]
+	D [label=GIGA]
+	A -> B [label="VR Related"]
+	A -> C [label="mobile marketshare"]
+	B -> D [label=ODM]
+	C -> D [label=competitor]
+}

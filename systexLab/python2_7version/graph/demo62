@@ -1,0 +1,12 @@
+graph {
+	Apple
+	Google
+	Facebook
+	Amazon
+	Apple -- Google
+	Apple -- Facebook
+	Apple -- Amazon
+	Google -- Facebook
+	Google -- Amazon
+	Facebook -- Amazon
+}
